@@ -1,5 +1,6 @@
 import React from 'react'
 import IMG1 from '../../assets/portfolio1.jpg'
+import IMG2 from '../../assets/portfolio2.jpg'
 import './portfolio.css'
 
 const data = [
@@ -8,6 +9,13 @@ const data = [
     image: IMG1,
     title: '8-bit RISC CPU',
     github: 'https://github.com/ed-henrique/AOC_Eduardo_Kelvin_UFRR_2022',
+    demo: '#'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Portfolio',
+    github: 'https://github.com/ed-henrique/portfolio-site',
     demo: '#'
   }
 ]

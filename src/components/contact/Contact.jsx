@@ -39,7 +39,7 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>+55 (95) 991258388</h5>
-            <a href="https://api.whatsapp.com/send?phone=+55991258388" target="_blank" rel="noreferrer">Send a Message</a>
+            <a href="https://api.whatsapp.com/send?phone=+559591258388" target="_blank" rel="noreferrer">Send a Message</a>
           </article>
           <article className="contact__option">
             <FaDiscord className='contact__option-icon' />
