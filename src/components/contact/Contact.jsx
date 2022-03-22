@@ -1,6 +1,6 @@
 import React from 'react'
 import {MdOutlineEmail} from 'react-icons/md'
-import {FaTelegramPlane} from 'react-icons/fa'
+import {FaDiscord} from 'react-icons/fa'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -33,19 +33,19 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>edu.hen.fm@gmail.com</h5>
-            <a href="mailto:edu.hen.fm@gmail.com" target="_blank">Send a Message</a>
-          </article>
-          <article className="contact__option">
-            <FaTelegramPlane className='contact__option-icon' />
-            <h4>Telegram</h4>
-            <h5>edu.hen.fm</h5>
-            <a href="https://t.me" target="_blank">Send a Message</a>
+            <a href="mailto:edu.hen.fm@gmail.com" target="_blank" rel="noreferrer">Send a Message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
             <h5>+55 (95) 991258388</h5>
-            <a href="https://api.whatsapp.com/send?phone=+55991258388" target="_blank">Send a Message</a>
+            <a href="https://api.whatsapp.com/send?phone=+55991258388" target="_blank" rel="noreferrer">Send a Message</a>
+          </article>
+          <article className="contact__option">
+            <FaDiscord className='contact__option-icon' />
+            <h4>Discord</h4>
+            <h5>p1zza#5559</h5>
+            <a href="https://discordapp.com/users/243409681995792385/" target="_blank" rel="noreferrer">Send a Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
