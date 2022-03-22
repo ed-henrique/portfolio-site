@@ -6,7 +6,7 @@ footer {
     margin-top: 7rem;
 }
 
-footer a, footer ul {
+footer a {
     color: var(--color-bg);
 }
 

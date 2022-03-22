@@ -10,6 +10,36 @@ header {
     position: relative;
 }
 
+.ityped-cursor {
+    opacity: 1;
+    -webkit-animation: blink .4s infinite;
+    -moz-animation: blink .4s infinite;
+    animation: blink .4s infinite;
+    animation-direction: alternate;
+}
+ 
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+ 
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+ 
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+.typed {
+    font-family: 'Fira Code', monospace;
+}
+
 /* ========================= CTA ====================== */
 .cta {
     margin-top: 2.5rem;

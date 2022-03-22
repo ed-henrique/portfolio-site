@@ -37,7 +37,9 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, laborum. Quod a illo sed fugiat. Reprehenderit asperiores sit natus repellat sequi. Vero nemo sint voluptates incidunt praesentium dolor tenetur a.
+            Majoring in CS (4° Semester).<br/>
+            Currently specializing in Cybersecurity and Web Development.<br/>
+            Fascinated by automation and electronics.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
